@@ -9,12 +9,12 @@ describe ZMQ do
       puts "Opening connection for READ DOWNSTREAM"
       inbound = context.socket(ZMQ::UPSTREAM)
       inbound.bind("ipc://localconnection")
-      inbound.set_receive_time_out 10
+      #inbound.set_receive_time_out 10
 
       puts "Opening connection for WRITE UPSTREAM"
       outbound = context.socket(ZMQ::DOWNSTREAM)
       outbound.connect("ipc://localconnection")
-      outbound.set_send_time_out 10
+      #outbound.set_send_time_out 10
 
       hello = "Hello World!"
       quit = "QUIT"
@@ -30,7 +30,7 @@ describe ZMQ do
       puts "Received #{received_msg}"
       received_msg.should == quit
 
-      #context.term
+      context.term
     end
   end
 end
