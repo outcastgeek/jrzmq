@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="JRubyZeroMQ" default="update" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
+    
+    <property name="ivy.install.version" value="2.2.0" />
+    <property name="ivy.lib.path" value="ivy" />
+    <property name="ivy.jar.file" value="${ivy.lib.path}/ivy-${ivy.install.version}.jar" />
+    <property name="deps.path" value="jars" />
+
+    <target name="-check">
+        <echo message="checking for local ivy installation..."/>
+        <condition property="skip.download">
+            <available file="${ivy.jar.file}" type="file"/>
+        </condition>
+    </target>
+
+    <target name="-download-ivy" depends="-check" unless="skip.download">
+        <echo message="installing ivy..."/>
+        <mkdir dir="${ivy.lib.path}" />
+        <get src="http://repo1.maven.org/maven2/org/apache/ivy/ivy/${ivy.install.version}/ivy-${ivy.install.version}.jar"
+             dest="${ivy.jar.file}" usetimestamp="true"/>
+    </target>
+ 
+    <target name="-install-ivy" depends="-download-ivy" description="--> install ivy">
+        <path id="ivy.lib.path">
+            <fileset dir="${ivy.lib.path}" includes="*.jar"/>
+        </path>
+        <taskdef resource="org/apache/ivy/ant/antlib.xml" uri="antlib:org.apache.ivy.ant" classpathref="ivy.lib.path"/>
+    </target>
+
+    <target name="clean-ivy" description="--> clean the ivy installation">
+        <delete dir="${ivy.jar.dir}"/>
+    </target>    
+ 
+    <target name="update" depends="-install-ivy" description="Download project dependencies">
+        <echo message="updating ivy dependencies..."/>
+        <ivy:settings file="ivysettings.xml" />
+        <!--<ivy:retrieve pattern="${deps.path}/[conf]/[artifact]-[revision].[ext]" />-->
+        <ivy:retrieve pattern="${deps.path}/[conf]/[artifact].[ext]" />
+    </target>
+
+    <target name="clean-deps" description="--> clean the dependencies">
+        <delete dir="${deps.path}"/>
+    </target>
+
+    <target name="clean" depends="clean-deps, clean-ivy" description="--> cleans the project directory">
+        <echo message="cleaning the project directory..."/>
+    </target>
+</project>
