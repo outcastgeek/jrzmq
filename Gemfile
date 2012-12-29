@@ -1,3 +1,4 @@
 source :rubygems
-edn
+
+# Specify your gem's dependencies in edn.gemspec
 gemspec

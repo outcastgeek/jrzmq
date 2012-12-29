@@ -22,7 +22,7 @@ module ZMQ
   end
 end
 
-ZMQ.initialize_logger
+#ZMQ.initialize_logger
 
 require 'components'
 
