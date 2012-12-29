@@ -8,12 +8,12 @@ describe ZMQ do
       
       puts "Opening connection for READ DOWNSTREAM"
       inbound = context.socket(ZMQ::UPSTREAM)
-      inbound.bind("tcp://127.0.0.1:9000")
+      inbound.bind("ipc://localconnection")
       inbound.set_receive_time_out 10
 
       puts "Opening connection for WRITE UPSTREAM"
       outbound = context.socket(ZMQ::DOWNSTREAM)
-      outbound.connect("tcp://127.0.0.1:9000")
+      outbound.connect("ipc://localconnection")
       outbound.set_send_time_out 10
 
       hello = "Hello World!"
