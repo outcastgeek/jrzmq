@@ -1,6 +1,3 @@
-jrzmq
+jrzmq [![Build Status](https://secure.travis-ci.org/outcastgeek/jrzmq.png?branch=master)](http://travis-ci.org/outcastgeek/jrzmq)
 =====
-
-[![Build Status](https://travis-ci.org/outcastgeek/jrzmq/jrzmq.png)](http://travis-ci.org/jrzmq/jrzmq)
-
 Provides JRuby Bindings to a Pure Java implementation of libzmq (ZeroMQ).
