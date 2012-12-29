@@ -30,7 +30,7 @@ describe ZMQ do
       puts "Received #{received_msg}"
       received_msg.should == quit
 
-      context.term
+      #context.term
     end
   end
 end
