@@ -20,7 +20,6 @@ example
         outbound.set_send_time_out 10
 
         messages = %w{Hello  World! QUIT}
-        received_msgs = []
         
         messages.each do |msg|
           outbound.send(msg)
@@ -29,7 +28,6 @@ example
         loop do
           received_msg = inbound.recv_str
           puts "Received #{received_msg}"
-          received_msgs << received_msg if received_msg != nil
           break if received_msg == "QUIT"
         end
 
