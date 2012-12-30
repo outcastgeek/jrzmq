@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.files.concat(Dir['bin/*'])
   spec.files.concat(Dir['lib/**/*.rb'])
   spec.files.concat(Dir['jars/**/*.jar'])
-  spec.homepage = 'http://github.com/matadon/mizuno'
+  spec.homepage = 'https://github.com/outcastgeek/jrzmq'
   spec.has_rdoc = false
   spec.require_paths = [ "lib" ]
   spec.rubygems_version = '1.3.6'

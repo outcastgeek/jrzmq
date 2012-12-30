@@ -2,6 +2,11 @@ jrzmq [![Build Status](https://secure.travis-ci.org/outcastgeek/jrzmq.png?branch
 =====
 Provides JRuby Bindings to a Pure Java implementation of libzmq (ZeroMQ).
 
+Installation
+============
+
+jruby -S gem install jrzmq
+
 example
 =======
 
