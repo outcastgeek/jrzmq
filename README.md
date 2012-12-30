@@ -5,7 +5,8 @@ Provides JRuby Bindings to a Pure Java implementation of libzmq (ZeroMQ).
 Installation
 ============
 
-jruby -S gem install jrzmq
+        jruby -S gem install jrzmq
+        gem "jrzmq", "~> 1.0.1"
 
 example
 =======
