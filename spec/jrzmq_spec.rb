@@ -27,7 +27,7 @@ describe ZMQ do
         loop do
           received_msg = inbound.recv_str
           puts "Received #{received_msg}"
-          received_msgs << received_msg
+          received_msgs << received_msg if received_msg != nil
           break if received_msg == "QUIT"
         end
 
