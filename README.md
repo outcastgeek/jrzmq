@@ -5,6 +5,8 @@ Provides JRuby Bindings to a Pure Java implementation of libzmq (ZeroMQ).
 example
 =======
 
+        require 'jrzmq'
+
         context = ZMQ::Context.new(1)
 
         puts "Opening connection for READ DOWNSTREAM"
