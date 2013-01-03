@@ -2,12 +2,28 @@
 module ZMQ
   require_jars(%w(jeromq))
 
-  java_import 'org.jeromq.ZMQ'
+  java_import 'zmq.ZMQ'
+
+  class Socket < org.jeromq.ZMQ::Socket
+    def setsockopt(opt, val)
+      self.set_linger val
+    end
+  end
 
   class Context < org.jeromq.ZMQ::Context
     def initialize(ioThreads=java.lang.Runtime.getRuntime.availableProcessors)
       super(ioThreads)
     end
+
+    def socket(type)
+      Socket.new(self, type)
+    end
+  end
+
+  class Poller < org.jeromq.ZMQ::Poller
+  end
+
+  class Message < org.jeromq.ZMsg
   end
 
   SNDMORE = org.jeromq.ZMQ::SNDMORE
@@ -82,4 +98,7 @@ module ZMQ
 
   EVENT_ALL = org.jeromq.ZMQ::EVENT_ALL
 =end
+  IDENTITY = ZMQ::ZMQ_IDENTITY
+
+  LINGER = ZMQ::ZMQ_LINGER
 end
