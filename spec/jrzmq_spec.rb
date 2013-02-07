@@ -22,11 +22,11 @@ describe ZMQ do
       @outbound.close
       @context.term
     end
-    
+
     it "sends two messages UPSTREAM and receives two messages DOWNSTREAM" do
       messages = %w{Hello  World! QUIT}
       received_msgs = []
-        
+
       messages.each do |msg|
         @outbound.send(msg)
       end
@@ -39,7 +39,7 @@ describe ZMQ do
       end
 
       received_msgs.length.should == messages.length
-        
+
       for i in 0..messages.length
         received_msgs[i].should == messages[i]
       end

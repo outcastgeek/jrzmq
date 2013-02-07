@@ -1,5 +1,6 @@
 
 module ZMQ
+
   require_jars(%w(jeromq))
 
   java_import 'zmq.ZMQ'
@@ -101,4 +102,17 @@ module ZMQ
   IDENTITY = ZMQ::ZMQ_IDENTITY
 
   LINGER = ZMQ::ZMQ_LINGER
+
+  ########### DATA SERIALIZATION #########
+
+  require 'edn'
+
+  def read(data)
+    EDN.read(data)
+  end
+
+  def write(data)
+    data.to_edn
+  end
+  
 end

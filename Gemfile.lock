@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jrzmq (1.0.0)
+    jrzmq (1.0.2)
       edn (>= 1.0.0)
 
 GEM
