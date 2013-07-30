@@ -4,10 +4,11 @@ module ZMQ
   require_jars(%w(jeromq))
 
   java_import 'zmq.ZMQ'
+  java_import 'zmq.SocketBase'
 
   class Socket < org.jeromq.ZMQ::Socket
     def setsockopt(opt, val)
-      self.set_linger val
+      self.base.setsockopt opt, val
     end
   end
 
@@ -22,6 +23,13 @@ module ZMQ
   end
 
   class Poller < org.jeromq.ZMQ::Poller
+    def initialize(context=nil, size=32)
+      super(context, size)
+    end
+
+    def poll(tout)
+      self.poll tout
+    end
   end
 
   class Message < org.jeromq.ZMsg
@@ -74,6 +82,10 @@ module ZMQ
   POLLOUT = org.jeromq.ZMQ::POLLOUT
     
   POLLERR = org.jeromq.ZMQ::POLLERR
+
+  SUBSCRIBE = ZMQ::ZMQ_SUBSCRIBE
+
+  UNSUBSCRIBE = ZMQ::ZMQ_UNSUBSCRIBE
 =begin  
   EVENT_CONNECTED = org.jeromq.ZMQ::EVENT_CONNECTED
 

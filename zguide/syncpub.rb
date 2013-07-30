@@ -3,7 +3,7 @@
 #
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 # We wait for 10 subscribers
 SUBSCRIBERS_EXPECTED = 10
@@ -23,15 +23,15 @@ puts "Waiting for subscribers"
 subscribers = 0 
 begin 
   # wait for synchronization request
-  syncservice.recv_string('')
+  syncservice.recv_str('')
   # send synchronization reply
-  syncservice.send_string("")
+  syncservice.send("")
   subscribers+=1
 end while subscribers < SUBSCRIBERS_EXPECTED
 
 # Now broadcast exactly 1M updates followed by END
 1000000.times do
-  publisher.send_string("Rhubarb") 
+  publisher.send("Rhubarb")
 end
 
-publisher.send_string("END")
+publisher.send("END")

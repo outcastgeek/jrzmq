@@ -3,7 +3,7 @@
 #
 
 require "rubygems"
-require 'ffi-rzmq'
+require 'jrzmq'
 
 context = ZMQ::Context.new(1)
 

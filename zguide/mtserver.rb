@@ -3,7 +3,7 @@
 #
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 def worker_routine(context)
   # Socket to talk to dispatcher
@@ -11,12 +11,12 @@ def worker_routine(context)
   receiver.connect("inproc://workers")
 
   loop do 
-    receiver.recv_string(string = '')
+    receiver.recv_str(string = '')
     puts "Received request: [#{string}]"
     # Do some 'work'
     sleep(1)
     # Send reply back to client
-    receiver.send_string("world")
+    receiver.send("world")
   end
 end
 

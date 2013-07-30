@@ -7,7 +7,7 @@
 #
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 context = ZMQ::Context.new(1)
 
@@ -21,8 +21,8 @@ sender.connect("tcp://localhost:5558")
 
 # Process tasks forever
 while true
-  
-  receiver.recv_string(msec = '')
+
+  msec = receiver.recv_str or ''
   # Simple progress indicator for the viewer
   $stdout << "#{msec}."
   $stdout.flush
@@ -31,5 +31,5 @@ while true
   sleep(msec.to_f / 1000)
 
   # Send results to sink
-  sender.send_string("")
+  sender.send("")
 end

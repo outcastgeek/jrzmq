@@ -2,14 +2,14 @@
 # this code is licenced under the MIT/X11 licence.
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 context = ZMQ::Context.new
 socket = context.socket(ZMQ::REP)
 socket.connect('tcp://localhost:5560')
 
 loop do
-  socket.recv_string(message = '')
+  socket.recv_str(message = '')
   puts "Received request: #{message}"
-  socket.send_string('World')
+  socket.send('World')
 end

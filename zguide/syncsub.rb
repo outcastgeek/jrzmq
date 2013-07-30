@@ -3,7 +3,7 @@
 #
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 context = ZMQ::Context.new
 
@@ -20,15 +20,15 @@ synclient = context.socket(ZMQ::REQ)
 synclient.connect("tcp://localhost:5562")
 
 # - send a synchronization request
-synclient.send_string("")
+synclient.send("")
 
 # - wait for synchronization reply
-synclient.recv_string('')
+synclient.recv_str('')
 
 # Third, get our updates and report how many we got
 update_nbr=0
 loop do 
-  subscriber.recv_string(string = '')
+  subscriber.recv_str(string = '')
   break if string == "END"
   update_nbr+=1
 end

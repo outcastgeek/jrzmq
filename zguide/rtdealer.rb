@@ -10,7 +10,7 @@
 # @email mitin.pavel@gmail.com
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 module RTDealer
   ENDPOINT = 'ipc://routing.ipc'
@@ -46,7 +46,7 @@ module RTDealer
     end
 
     def receive_workload
-      @socket.recv_string @workload
+      @socket.recv_str @workload
     end
 
     def handle_workload
@@ -80,15 +80,15 @@ module RTDealer
     def send_workload
       10.times do
         address = rand(3) % 3 == 0 ? WORKER_ADDRESSES.first : WORKER_ADDRESSES.last
-        @socket.send_string address, ZMQ::SNDMORE
-        @socket.send_string "This is the workload"
+        @socket.send address, ZMQ::SNDMORE
+        @socket.send "This is the workload"
       end
     end
 
     def stop_workers
       WORKER_ADDRESSES.each do |address|
-        @socket.send_string address, ZMQ::SNDMORE
-        @socket.send_string END_MESSAGE
+        @socket.send address, ZMQ::SNDMORE
+        @socket.send END_MESSAGE
       end
     end
   end

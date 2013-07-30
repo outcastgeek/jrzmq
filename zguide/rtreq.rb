@@ -13,13 +13,13 @@
 # @email mitin.pavel@gmail.com
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 WORKER_NUMBER = 10
 
 def receive_string(socket)
   result = ''
-  socket.recv_string result
+  socket.recv_str result
   result
 end
 
@@ -33,7 +33,7 @@ def worker_task
   total = 0
   loop do
     # Tell the router we're ready for work
-    worker.send_string 'ready'
+    worker.send 'ready'
 
     # Get workload from router, until finished
     workload = receive_string worker
@@ -60,9 +60,9 @@ end
   empty = receive_string client
   ready = receive_string client
 
-  client.send_string address, ZMQ::SNDMORE
-  client.send_string '', ZMQ::SNDMORE
-  client.send_string 'This is the workload'
+  client.send address, ZMQ::SNDMORE
+  client.send '', ZMQ::SNDMORE
+  client.send 'This is the workload'
 end
 
 # Now ask mamas to shut down and report their results
@@ -71,9 +71,9 @@ WORKER_NUMBER.times do
   empty = receive_string client
   ready = receive_string client
 
-  client.send_string address, ZMQ::SNDMORE
-  client.send_string '', ZMQ::SNDMORE
-  client.send_string 'END'
+  client.send address, ZMQ::SNDMORE
+  client.send '', ZMQ::SNDMORE
+  client.send 'END'
 end
 
 workers.each &:join

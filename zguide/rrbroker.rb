@@ -2,7 +2,7 @@
 # this code is licenced under the MIT/X11 licence.
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 context = ZMQ::Context.new
 frontend = context.socket(ZMQ::ROUTER)
@@ -20,16 +20,16 @@ loop do
   poller.readables.each do |socket|
     if socket === frontend
       loop do
-        socket.recv_string(message = '')
+        socket.recv_str(message = '')
         more = socket.more_parts?
-        backend.send_string(message, more ? ZMQ::SNDMORE : 0)
+        backend.send(message, more ? ZMQ::SNDMORE : 0)
         break unless more
       end
     elsif socket === backend
       loop do
-        socket.recv_string(message = '')
+        socket.recv_str(message = '')
         more = socket.more_parts?
-        frontend.send_string(message, more ? ZMQ::SNDMORE : 0)
+        frontend.send(message, more ? ZMQ::SNDMORE : 0)
         break unless more
       end
     end

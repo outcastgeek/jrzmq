@@ -5,7 +5,7 @@
 #
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 context = ZMQ::Context.new(1)
 
@@ -18,7 +18,7 @@ $stdin.read(1)
 puts "Sending tasks to workers..."
 
 # The first message is "0" and signals start of batch
-sender.send_string('0')
+sender.send('0')
 
 # Send 100 tasks
 total_msec = 0  # Total expected cost in msecs
@@ -26,7 +26,7 @@ total_msec = 0  # Total expected cost in msecs
   workload = rand(100) + 1
   total_msec += workload
   $stdout << "#{workload}."
-  sender.send_string(workload.to_s)
+  sender.send(workload.to_s)
 end
 
 puts "Total expected cost: #{total_msec} msec"

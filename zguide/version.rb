@@ -3,6 +3,6 @@
 #
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 puts "Current 0MQ version is %d.%d.%d\n" % ZMQ::Util.version

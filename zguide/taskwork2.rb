@@ -4,7 +4,7 @@
 #
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 context = ZMQ::Context.new(1)
 
@@ -31,7 +31,7 @@ while true
   items = poller.poll()
   poller.readables.each do |item| 
    if item === receiver
-    receiver.recv_string(msec ='')
+    receiver.recv_str(msec ='')
  
     # Simple progress indicator for the viewer
     $stdout << "#{msec}."
@@ -41,7 +41,7 @@ while true
     sleep(msec.to_f / 1000)
 
     # Send results to sink
-    sender.send_string("")
+    sender.send("")
    end
 
    exit if item === controller

@@ -5,7 +5,7 @@
 #
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 COUNT = 100
 

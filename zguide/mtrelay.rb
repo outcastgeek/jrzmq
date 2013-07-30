@@ -3,13 +3,13 @@
 #
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 def step1(context)
   # Connect to step2 and tell it we're ready
   xmitter = context.socket(ZMQ::PAIR)
   xmitter.connect("inproc://step2")
-  xmitter.send_string("READY")
+  xmitter.send("READY")
 end
 
 def step2(context)
@@ -24,7 +24,7 @@ def step2(context)
   # Connect to step3 and tell it we're ready
   xmitter = context.socket(ZMQ::PAIR)
   xmitter.connect("inproc://step3")
-  xmitter.send_string("READY")
+  xmitter.send("READY")
 end
 
 
@@ -36,6 +36,6 @@ receiver.bind("inproc://step3")
 Thread.new{step2(context)}
 
 # Wait for signal
-receiver.recv_string('')
+receiver.recv_str
 
 puts "Test successful!"

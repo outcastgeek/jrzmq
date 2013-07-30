@@ -5,7 +5,7 @@
 # This version uses a simple recv loop
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 context = ZMQ::Context.new
 
@@ -19,12 +19,13 @@ subscriber.connect('tcp://localhost:5556')
 subscriber.setsockopt(ZMQ::SUBSCRIBE, '10001')
 
 while true
-  if receiver.recv_string(receiver_msg = '',ZMQ::NOBLOCK) && !receiver_msg.empty?
+  receiver_msg = receiver.recv_str(ZMQ::NOBLOCK) or ''
+  if receiver_msg && !receiver_msg.empty?
     # process task
     puts "receiver: #{receiver_msg}"
   end
-
-  if subscriber.recv_string(subscriber_msg = '',ZMQ::NOBLOCK) && !subscriber_msg.empty?
+  subscriber_msg = subscriber.recv_str(ZMQ::NOBLOCK) or ''
+  if subscriber_msg && !subscriber_msg.empty?
     # process weather update
     puts "weather: #{subscriber_msg}"
   end

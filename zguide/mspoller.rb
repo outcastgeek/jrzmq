@@ -5,7 +5,7 @@
 # This version uses a polling
 
 require 'rubygems'
-require 'ffi-rzmq'
+require 'jrzmq'
 
 context = ZMQ::Context.new
 
@@ -27,12 +27,12 @@ while true
   poller.poll(:blocking)
   poller.readables.each do |socket|
     if socket === receiver
-      socket.recv_string(message = '')
+      socket.recv_str(message = '')
       # process task
        puts "task: #{message}"
       
     elsif socket === subscriber
-      socket.recv_string(message = '')
+      socket.recv_str(message = '')
       # process weather update
       puts "weather: #{message}"
       
