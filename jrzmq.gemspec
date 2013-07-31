@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.has_rdoc = false
   spec.require_paths = [ "lib" ]
   spec.rubygems_version = '1.3.6'
-  spec.add_dependency 'edn', '>= 1.0.0'
-  spec.add_development_dependency 'rspec', '~> 2.11.0'
-  spec.add_development_dependency 'rake', '~> 10.0.3'
+  spec.add_dependency 'edn', '>= 1.0.2'
+  spec.add_development_dependency 'rspec', '~> 2.14.1'
+  spec.add_development_dependency 'rake', '~> 10.1.0'
 end

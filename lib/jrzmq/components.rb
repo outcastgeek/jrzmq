@@ -4,7 +4,7 @@ module ZMQ
   require_jars(%w(jeromq))
 
   java_import 'zmq.ZMQ'
-  java_import 'zmq.SocketBase'
+  java_import 'zmq.Msg'
 
   class Socket < org.jeromq.ZMQ::Socket
     def setsockopt(opt, val)
@@ -32,7 +32,7 @@ module ZMQ
     end
   end
 
-  class Message < org.jeromq.ZMsg
+  class Message < Msg
   end
 
   SNDMORE = org.jeromq.ZMQ::SNDMORE
