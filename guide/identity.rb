@@ -1,6 +1,6 @@
 #
 #
-#   Identity check in Ruby
+#   Identity check in JRuby
 #
 #
 $LOAD_PATH << '../lib'
