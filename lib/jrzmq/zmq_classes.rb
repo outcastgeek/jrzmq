@@ -26,10 +26,6 @@ module ZMQ
     def initialize(context=nil, size=32)
       super(context, size)
     end
-
-    def poll(poll_items, timeout)
-      org.jeromq.ZMQ.poll(poll_items, timeout)
-    end
   end
 
   class PollItem < org.jeromq.ZMQ::PollItem
@@ -38,6 +34,9 @@ module ZMQ
     end
   end
 
-  class Message < Msg
+  class Message < org.jeromq.ZMQ::Msg
+    def initialize(src)
+      super(src)
+    end
   end
 end

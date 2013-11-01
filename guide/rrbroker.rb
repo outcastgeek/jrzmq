@@ -11,27 +11,25 @@ backend = context.socket(ZMQ::DEALER)
 frontend.bind('tcp://*:5559')
 backend.bind('tcp://*:5560')
 
-poller = ZMQ::Poller.new
+poller = ZMQ::Poller.new(nil, 2)
 poller.register(frontend, ZMQ::POLLIN)
 poller.register(backend, ZMQ::POLLIN)
 
 loop do
-  poller.poll(:blocking)
-  poller.readables.each do |socket|
-    if socket === frontend
-      loop do
-        socket.recv_str(message = '')
-        more = socket.more_parts?
-        backend.send(message, more ? ZMQ::SNDMORE : 0)
-        break unless more
-      end
-    elsif socket === backend
-      loop do
-        socket.recv_str(message = '')
-        more = socket.more_parts?
-        frontend.send(message, more ? ZMQ::SNDMORE : 0)
-        break unless more
-      end
+  poller.poll()
+  if poller.pollin(0)
+    loop do
+      message = frontend.recv_str
+      more = frontend.has_receive_more
+      backend.send(message, more ? ZMQ::SNDMORE : 0)
+      break unless more
+    end
+  elsif poller.pollin(1)
+    loop do
+      message = backend.recv_str
+      more = backend.has_receive_more
+      frontend.send(message, more ? ZMQ::SNDMORE : 0)
+      break unless more
     end
   end
 end

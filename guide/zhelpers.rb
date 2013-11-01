@@ -3,10 +3,11 @@ def s_dump(sock)
   # Build an array to hold all the parts
   messages = []
   zmsg = sock.recv
+
   zmsg.each do |frame|
     messages << frame
-  end
-  
+  end if zmsg
+
   # messages is an array of ZMQ::Message objects
   messages.each do |msg|
     if msg == messages[0]

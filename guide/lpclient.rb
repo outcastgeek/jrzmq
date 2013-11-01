@@ -26,7 +26,7 @@ class LPClient
   def send(message)
     @retries.times do |tries|
       raise("Send: #{message} failed") unless @socket.send(message)
-      if ZMQ.select( [@socket], nil, nil, @timeout)
+      if ZMQ.poll([ZMQ::PollItem.new(@socket, ZMQ::POLLIN)], @timeout)
         yield @socket.recv
         return
       else

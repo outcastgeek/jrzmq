@@ -7,7 +7,9 @@ module ZMQ
     $LOAD_PATH << path
   end
 
-  def ZMQ.initialize_logger
+  module_function
+
+  def initialize_logger
     require_jars(%w(logback-access logback-classic logback-core logback-site slf4j-api))
     rootLogger = Java::OrgSlf4j::LoggerFactory.getLogger(Java::ChQosLogbackClassic::Logger.java_class)
     rootLoggerLogLevel = Java::ChQosLogbackClassic::Level::DEBUG
@@ -15,7 +17,7 @@ module ZMQ
     rootLogger.info "Root Logger Log Level was set to: #{rootLoggerLogLevel}"
   end
 
-  def ZMQ.require_jars(*names)
+  def require_jars(*names)
     names.flatten.each do |name|
       require "#{name}.jar"
     end

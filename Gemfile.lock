@@ -5,7 +5,7 @@ PATH
       edn (>= 1.0.2)
 
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     blankslate (2.1.2.4)
     diff-lcs (1.2.4)
@@ -25,6 +25,7 @@ GEM
 
 PLATFORMS
   java
+  x86-mingw32
 
 DEPENDENCIES
   jrzmq!

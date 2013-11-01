@@ -20,7 +20,7 @@ class LPServer
       end
     ensure
       @socket.close
-      @ctx.close
+      @ctx.term
     end
   end
       

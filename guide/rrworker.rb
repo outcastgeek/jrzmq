@@ -9,7 +9,7 @@ socket = context.socket(ZMQ::REP)
 socket.connect('tcp://localhost:5560')
 
 loop do
-  socket.recv_str(message = '')
+  message = socket.recv_str()
   puts "Received request: #{message}"
   socket.send('World')
 end

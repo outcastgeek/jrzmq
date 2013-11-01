@@ -8,6 +8,8 @@ module ZMQ
 
   require 'edn'
 
+  module_function
+
   def read(data)
     EDN.read(data)
   end
@@ -15,5 +17,9 @@ module ZMQ
   def write(data)
     data.to_edn
   end
-  
+
+  def poll(items, timeout)
+    org.jeromq.ZMQ.poll(items, timeout)
+  end
+
 end
