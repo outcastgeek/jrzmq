@@ -12,6 +12,7 @@
 # @author Pavel Mitin
 # @email mitin.pavel@gmail.com
 
+$LOAD_PATH << '../lib'
 require 'rubygems'
 require 'jrzmq'
 
@@ -19,7 +20,7 @@ WORKER_NUMBER = 10
 
 def receive_string(socket)
   result = ''
-  socket.recv_str result
+  result = socket.recv_str
   result
 end
 

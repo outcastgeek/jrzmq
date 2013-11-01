@@ -2,8 +2,9 @@
 # this code is licenced under the MIT/X11 licence.
 #
 # Reading from multiple sockets
-# This version uses a simple recv loop
+# This version uses a polling
 
+$LOAD_PATH << '../lib'
 require 'rubygems'
 require 'jrzmq'
 
@@ -18,18 +19,21 @@ subscriber = context.socket(ZMQ::SUB)
 subscriber.connect('tcp://localhost:5556')
 subscriber.setsockopt(ZMQ::SUBSCRIBE, '10001')
 
-while true
-  receiver_msg = receiver.recv_str(ZMQ::NOBLOCK) or ''
-  if receiver_msg && !receiver_msg.empty?
-    # process task
-    puts "receiver: #{receiver_msg}"
-  end
-  subscriber_msg = subscriber.recv_str(ZMQ::NOBLOCK) or ''
-  if subscriber_msg && !subscriber_msg.empty?
-    # process weather update
-    puts "weather: #{subscriber_msg}"
-  end
+# Initialize a poll set
+poller = ZMQ::Poller.new(nil, 2)
+poller.register(receiver, ZMQ::POLLIN)
+poller.register(subscriber, ZMQ::POLLIN)
 
-  # No activity, so sleep for 1 msec
-  sleep 0.001
+while true
+  poller.poll()
+  if poller.pollin(0)
+    message = receiver.recv_str
+    # process task
+    puts "task: #{message}"
+
+  elsif poller.pollin(1)
+    message = subscriber.recv_str
+    # process weather update
+    puts "weather: #{message}"
+  end
 end

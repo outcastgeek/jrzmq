@@ -9,6 +9,7 @@
 # @author Pavel Mitin
 # @email mitin.pavel@gmail.com
 
+$LOAD_PATH << '../lib'
 require 'rubygems'
 require 'jrzmq'
 
@@ -46,7 +47,7 @@ module RTDealer
     end
 
     def receive_workload
-      @socket.recv_str @workload
+      @workload = @socket.recv_str
     end
 
     def handle_workload
@@ -105,5 +106,5 @@ if $0 == __FILE__
   client.run
 
   workers.each &:join
-  context.terminate
+  context.term
 end

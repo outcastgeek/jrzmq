@@ -19,7 +19,7 @@ class LPClient
   
   def client_sock
     @socket = @ctx.socket(ZMQ::REQ)
-    @socket.setsockopt(ZMQ::LINGER, 0)
+    @socket.setsockopt(ZMQ::LINGER, 0.to_java(:int))
     @socket.connect(@connect)
   end
 

@@ -7,8 +7,18 @@ module ZMQ
   java_import 'zmq.Msg'
 
   class Socket < org.jeromq.ZMQ::Socket
+    include EDN
     def setsockopt(opt, val)
-      self.base.setsockopt opt, val.to_java(:int)
+      self.base.setsockopt opt, val
+    end
+    def send_edn(msg)
+      edn_msg = (msg.is_a? String) ? msg : msg.to_edn
+      self.send edn_msg
+    end
+    def recv_edn()
+      msg = self.recv_str
+      rb_data = EDN.read(msg)
+      rb_data
     end
   end
 

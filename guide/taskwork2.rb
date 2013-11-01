@@ -22,17 +22,16 @@ controller.connect("tcp://localhost:5559")
 controller.setsockopt(ZMQ::SUBSCRIBE,"")
 
 # Process messages from receiver and controller
-poller = ZMQ::Poller.new()
+poller = ZMQ::Poller.new(nil, 2)
 poller.register(receiver,ZMQ::POLLIN)
 poller.register(controller,ZMQ::POLLIN)
 
 # Process tasks forever
 while true
-  items = poller.poll()
-  poller.readables.each do |item| 
-   if item === receiver
-    receiver.recv_str(msec ='')
- 
+  poller.poll()
+  if poller.pollin(0)
+    msec = receiver.recv_str
+
     # Simple progress indicator for the viewer
     $stdout << "#{msec}."
     $stdout.flush
@@ -42,8 +41,7 @@ while true
 
     # Send results to sink
     sender.send("")
-   end
-
-   exit if item === controller
   end
+
+  exit if poller.pollin(1)
 end
