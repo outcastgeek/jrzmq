@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.description = 'ZeroMQ JRuby Bindings using JeroMQ.'
   spec.summary = 'Provides JRuby Bindings to a Pure Java implementation of libzmq (ZeroMQ).'
   spec.email = 'outcastgeek+JRubyZeroMQ@gmail.com'
+  spec.licenses = ['MIT', 'LGPL', 'GPL-3']
   spec.executables = [ "jrzmq" ]
   spec.files = %w(.gitignore README.md LICENSE Rakefile Gemfile jrzmq.gemspec)
   spec.files.concat(Dir['bin/*'])
