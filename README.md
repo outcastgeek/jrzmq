@@ -40,8 +40,9 @@ example
 license
 =======
 
-Same as [JeroMQ](https://github.com/zeromq/jeromq "JeroMQ"):
+JRZMQ's code is MIT, but it relies upon [JeroMQ](https://github.com/zeromq/jeromq "JeroMQ") which has the following:
 
 [COPYING](https://github.com/zeromq/jeromq/blob/master/COPYING "COPYING")
 
 [COPYING.LESSER](https://github.com/zeromq/jeromq/blob/master/COPYING.LESSER "COPYING.LESSER")
+
