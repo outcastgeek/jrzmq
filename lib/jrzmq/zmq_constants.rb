@@ -8,6 +8,10 @@ module ZMQ
 
   SNDMORE = org.jeromq.ZMQ::SNDMORE
 
+  SNDTIMEO = ZMQ::ZMQ_SNDTIMEO
+
+  RCVTIMEO = ZMQ::ZMQ_RCVTIMEO
+
   DONTWAIT = org.jeromq.ZMQ::DONTWAIT
 
   NOBLOCK = org.jeromq.ZMQ::NOBLOCK

@@ -39,4 +39,7 @@ module ZMQ
       super(src)
     end
   end
+
+  class ZMQQueue < org.jeromq::ZMQQueue
+  end
 end
