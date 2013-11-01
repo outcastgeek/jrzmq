@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" name="Default" comment="Clean up the API a bit, and then progressively fixing the ZGuide examples, and moving the working samples into the guide folder.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jars/compile/logback-access.jar" afterPath="$PROJECT_DIR$/jars/compile/logback-access.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jars/compile/logback-classic.jar" afterPath="$PROJECT_DIR$/jars/compile/logback-classic.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jars/compile/logback-core.jar" afterPath="$PROJECT_DIR$/jars/compile/logback-core.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jars/compile/logback-site.jar" afterPath="$PROJECT_DIR$/jars/compile/logback-site.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jars/compile/slf4j-api.jar" afterPath="$PROJECT_DIR$/jars/compile/slf4j-api.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zguide/MAKE_SURE_TO_READ_THIS" afterPath="$PROJECT_DIR$/zguide/MAKE_SURE_TO_READ_THIS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jrzmq/components.rb" afterPath="$PROJECT_DIR$/lib/jrzmq/components.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/hwclient.rb" afterPath="$PROJECT_DIR$/guide/hwclient.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/identity.rb" afterPath="$PROJECT_DIR$/guide/identity.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jrzmq.rb" afterPath="$PROJECT_DIR$/lib/jrzmq.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/lpclient.rb" afterPath="$PROJECT_DIR$/guide/lpclient.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/lpserver.rb" afterPath="$PROJECT_DIR$/guide/lpserver.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/rrbroker.rb" afterPath="$PROJECT_DIR$/guide/rrbroker.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/rrclient.rb" afterPath="$PROJECT_DIR$/guide/rrclient.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/rrworker.rb" afterPath="$PROJECT_DIR$/guide/rrworker.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/zhelpers.rb" afterPath="$PROJECT_DIR$/guide/zhelpers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb" afterPath="$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jrzmq/version.rb" afterPath="$PROJECT_DIR$/lib/jrzmq/version.rb" />
     </list>
     <ignored path="jrzmq.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -251,10 +234,10 @@
     <file path="$PROJECT_DIR$/../cljs-helloworld/resources/public/js/phonecat.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378481683710" ignored="false" />
     <file path="$PROJECT_DIR$/../cljs-helloworld/resources/public/js/cljs.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378481683710" ignored="false" />
     <file path="C:/Tools/jruby/lib/jruby.jar!/jruby/kernel.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383256743074" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383267068952" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383267309932" ignored="false" />
     <file path="/identity.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383262172153" ignored="false" />
     <file path="/zhelpers.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383262064555" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/.idea/workspace.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383267068952" ignored="false" />
+    <file path="$PROJECT_DIR$/../jeromq/.idea/workspace.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383267310442" ignored="false" />
     <file path="/lpclient.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383264036845" ignored="false" />
     <file path="/lpserver.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383264097372" ignored="false" />
     <file path="/MAKE_SURE_TO_READ_THIS" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383266328405" ignored="false" />
@@ -318,10 +301,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="zmq_classes.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb">
+      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/jrzmq/version.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="188" selection-end="188" vertical-scroll-proportion="0.2905983">
+            <state line="3" column="22" selection-start="38" selection-end="38" vertical-scroll-proportion="0.08717949">
               <folding />
             </state>
           </provider>
@@ -345,7 +328,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/examples/xreqxrep_poll.rb" />
         <option value="$PROJECT_DIR$/lib/jrzmq/zmq_constants.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/guide/hwclient.rb" />
@@ -361,6 +343,7 @@
         <option value="$PROJECT_DIR$/guide/rrclient.rb" />
         <option value="$PROJECT_DIR$/guide/rrbroker.rb" />
         <option value="$PROJECT_DIR$/zguide/MAKE_SURE_TO_READ_THIS" />
+        <option value="$PROJECT_DIR$/lib/jrzmq/version.rb" />
       </list>
     </option>
   </component>
@@ -413,94 +396,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zguide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1003,20 +898,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/jrzmq.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="65" selection-start="186" selection-end="186" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/zhelpers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="50" selection-start="248" selection-end="248" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guide/hwserver.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="47" selection-start="337" selection-end="337" vertical-scroll-proportion="0.53333336">
@@ -1108,9 +989,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jrzmq.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="65" selection-start="186" selection-end="186" vertical-scroll-proportion="0.2905983">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="188" selection-end="188" vertical-scroll-proportion="0.2905983">
+        <state line="21" column="37" selection-start="434" selection-end="434" vertical-scroll-proportion="0.61025643">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jrzmq/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="38" selection-end="38" vertical-scroll-proportion="0.08717949">
           <folding />
         </state>
       </provider>
