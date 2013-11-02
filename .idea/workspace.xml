@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" name="Default" comment="Clean up the API a bit, and then progressively fixing the ZGuide examples, and moving the working samples into the guide folder.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jrzmq/version.rb" afterPath="$PROJECT_DIR$/lib/jrzmq/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb" afterPath="$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb" />
+      <change type="DELETED" beforePath="C:\ossworkspace\jrzmq\examples\local_throughput.rb" afterPath="" />
     </list>
     <ignored path="jrzmq.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -240,7 +236,7 @@
     <file path="C:/Tools/jruby/lib/jruby.jar!/jruby/kernel.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383256743074" ignored="false" />
     <file path="/identity.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383262172153" ignored="false" />
     <file path="/zhelpers.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383262064555" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/.idea/workspace.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383356362124" ignored="false" />
+    <file path="$PROJECT_DIR$/../jeromq/.idea/workspace.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383356372516" ignored="false" />
     <file path="/lpclient.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383264036845" ignored="false" />
     <file path="/lpserver.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383264097372" ignored="false" />
     <file path="/MAKE_SURE_TO_READ_THIS" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383266328405" ignored="false" />
@@ -328,7 +324,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="50" selection-start="468" selection-end="468" vertical-scroll-proportion="0.20523138">
+            <state line="10" column="78" selection-start="546" selection-end="546" vertical-scroll-proportion="0.3420523">
               <folding />
             </state>
           </provider>
@@ -1039,13 +1035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="57" selection-start="174" selection-end="174" vertical-scroll-proportion="0.033333335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jrzmq.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="44" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
@@ -1130,9 +1119,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="45" selection-end="45" vertical-scroll-proportion="0.1">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="50" selection-start="468" selection-end="468" vertical-scroll-proportion="0.20523138">
+        <state line="10" column="78" selection-start="546" selection-end="546" vertical-scroll-proportion="0.3420523">
           <folding />
         </state>
       </provider>
