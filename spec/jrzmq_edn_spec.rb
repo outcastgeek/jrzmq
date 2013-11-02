@@ -8,11 +8,9 @@ describe EDN do
 
     @inbound = @context.socket(ZMQ::UPSTREAM)
     @inbound.bind("ipc://edn_bus")
-    @inbound.set_receive_time_out 10
 
     @outbound = @context.socket(ZMQ::DOWNSTREAM)
     @outbound.connect("ipc://edn_bus")
-    @outbound.set_send_time_out 10
   end
 
   after(:each) do
