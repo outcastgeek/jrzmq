@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" name="Default" comment="Clean up the API a bit, and then progressively fixing the ZGuide examples, and moving the working samples into the guide folder.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jrzmq/version.rb" afterPath="$PROJECT_DIR$/lib/jrzmq/version.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb" afterPath="$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb" />
     </list>
     <ignored path="jrzmq.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +41,7 @@
     <file path="$PROJECT_DIR$/../jeromq/build.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375311627912" ignored="false" />
     <file path="$PROJECT_DIR$/../jeromq/maven-build.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375311627912" ignored="false" />
     <file path="$PROJECT_DIR$/../jeromq/README.md" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375311764007" ignored="false" />
-    <file path="/zmq_classes.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383348734666" ignored="false" />
+    <file path="/zmq_classes.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383355480971" ignored="false" />
     <file path="/zmq_constants.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375315373832" ignored="false" />
     <file path="$PROJECT_DIR$/../BeanTraversal/pom.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398509861" ignored="false" />
     <file path="/pom.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375385522907" ignored="false" />
@@ -236,7 +240,7 @@
     <file path="C:/Tools/jruby/lib/jruby.jar!/jruby/kernel.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383256743074" ignored="false" />
     <file path="/identity.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383262172153" ignored="false" />
     <file path="/zhelpers.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383262064555" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/.idea/workspace.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383354279405" ignored="false" />
+    <file path="$PROJECT_DIR$/../jeromq/.idea/workspace.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383356362124" ignored="false" />
     <file path="/lpclient.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383264036845" ignored="false" />
     <file path="/lpserver.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383264097372" ignored="false" />
     <file path="/MAKE_SURE_TO_READ_THIS" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383266328405" ignored="false" />
@@ -251,7 +255,7 @@
     <file path="/Cobalt.Document.DocketGateway.DraggableTest.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383340794252" ignored="false" />
     <file path="/jrzmq_edn_spec.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383348984427" ignored="false" />
     <file path="/spec_helper.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383347132596" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383354279405" ignored="false" />
+    <file path="/local_throughput.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383355157839" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,15 +316,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jrzmq.gemspec" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jrzmq.gemspec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="44" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="jrzmq_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/jrzmq_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -333,16 +328,25 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="66" selection-start="538" selection-end="538" vertical-scroll-proportion="0.30784708">
+            <state line="6" column="50" selection-start="468" selection-end="468" vertical-scroll-proportion="0.20523138">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="components.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/jrzmq/components.rb">
+      <file leaf-file-name="identity.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guide/identity.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="56" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+            <state line="16" column="50" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/jrzmq/version.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="16" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -351,7 +355,7 @@
       <file leaf-file-name="zmq_classes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="69" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="43" column="49" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -384,24 +388,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mtserver.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guide/mtserver.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="46" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mtrelay.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guide/mtrelay.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="8" selection-start="818" selection-end="826" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -420,7 +406,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/guide/tasksink2.rb" />
         <option value="$PROJECT_DIR$/guide/msreader.rb" />
         <option value="$PROJECT_DIR$/guide/mspoller.rb" />
         <option value="$PROJECT_DIR$/guide/rtdealer.rb" />
@@ -429,12 +414,13 @@
         <option value="$PROJECT_DIR$/guide/msgqueue.rb" />
         <option value="$PROJECT_DIR$/guide/mtserver.rb" />
         <option value="$PROJECT_DIR$/jrzmq.gemspec" />
-        <option value="$PROJECT_DIR$/lib/jrzmq/version.rb" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
-        <option value="$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/jrzmq_edn_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/jrzmq/version.rb" />
+        <option value="$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb" />
+        <option value="$PROJECT_DIR$/examples/local_throughput.rb" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -488,20 +474,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -598,24 +570,6 @@
     </key>
   </component>
   <component name="RunManager" selected="RSpec.All specs in: spec">
-    <configuration default="false" name="mtrelay" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="jrzmq" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/guide" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/guide/mtrelay.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="mtserver" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="jrzmq" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -712,6 +666,24 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="local_throughput" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="jrzmq" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/examples" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/examples/local_throughput.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -872,16 +844,16 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.mtrelay" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.mtserver" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.msgqueue" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.jrzmq_edn_spec" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.mtserver" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.msgqueue" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.jrzmq_edn_spec" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.local_throughput" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.jrzmq_edn_spec" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.local_throughput" />
         <item index="2" class="java.lang.String" itemvalue="RSpec.jrzmq_edn_spec" />
         <item index="3" class="java.lang.String" itemvalue="RSpec.jrzmq_edn_spec" />
         <item index="4" class="java.lang.String" itemvalue="RSpec.jrzmq_edn_spec" />
@@ -1060,55 +1032,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guide/msreader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="195" selection-end="195" vertical-scroll-proportion="0.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/msgqueue.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="431" selection-end="431" vertical-scroll-proportion="0.6666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zguide/mmiecho.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/taskvent.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.3">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mtrelay.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="8" selection-start="818" selection-end="826" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mtserver.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="46" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jrzmq/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="40" selection-end="40" vertical-scroll-proportion="0.1">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/jrzmq/components.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="56" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
@@ -1151,13 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="69" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/jrzmq_edn_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="86" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
@@ -1165,9 +1081,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guide/hwclient.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="44" selection-start="140" selection-end="140" vertical-scroll-proportion="0.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/interrupt.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/rrclient.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="30" selection-start="193" selection-end="193" vertical-scroll-proportion="0.23333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/identity.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="50" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/lpclient.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="59" selection-start="831" selection-end="831" vertical-scroll-proportion="0.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jrzmq/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="49" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="66" selection-start="538" selection-end="538" vertical-scroll-proportion="0.30784708">
+        <state line="6" column="50" selection-start="468" selection-end="468" vertical-scroll-proportion="0.20523138">
           <folding />
         </state>
       </provider>

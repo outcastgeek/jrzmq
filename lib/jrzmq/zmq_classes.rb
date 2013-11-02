@@ -1,4 +1,6 @@
 
+require 'edn'
+
 module ZMQ
 
   require_jars(%w(jeromq))
@@ -45,7 +47,7 @@ module ZMQ
   end
 
   class Message < org.jeromq.ZMQ::Msg
-    def initialize(src)
+    def initialize(src='')
       super(src)
     end
   end
