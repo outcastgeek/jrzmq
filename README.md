@@ -6,7 +6,7 @@ Installation
 ============
 
         jruby -S gem install jrzmq
-        gem "jrzmq", "~> 1.0.3.0"
+        gem "jrzmq", "~> 1.0.3.1"
 
 example
 =======
