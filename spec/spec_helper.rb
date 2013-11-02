@@ -138,9 +138,4 @@ module RantlyHelpers
   def rant(fun, count = REPEAT)
     Rantly(count) { call(fun) }
   end
-
-  def send_receive_edn(inbound, outbound, msg)
-    outbound.send_edn msg
-    inbound.recv_edn
-  end
 end
