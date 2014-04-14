@@ -10,11 +10,11 @@
 
     <dependencies>
         <!-- compile dependencies -->
-        <dependency org="org.jeromq" name="jeromq" rev="0.2.0"/>
-        <dependency org="ch.qos.logback" name="logback-core" rev="1.0.13"/>
-        <dependency org="ch.qos.logback" name="logback-classic" rev="1.0.13"/>
-        <dependency org="ch.qos.logback" name="logback-access" rev="1.0.13"/>
-        <dependency org="ch.qos.logback" name="logback-site" rev="1.0.13"/>
+        <dependency org="org.zeromq" name="jeromq" rev="0.3.3"/>
+        <dependency org="ch.qos.logback" name="logback-core" rev="1.1.1"/>
+        <dependency org="ch.qos.logback" name="logback-classic" rev="1.1.1"/>
+        <dependency org="ch.qos.logback" name="logback-access" rev="1.1.1"/>
+        <dependency org="ch.qos.logback" name="logback-site" rev="1.1.1"/>
 
         <!-- runtime dependencies -->
         <!--<dependency org="org.slf4j" name="slf4j-simple" rev="1.6.6" conf="runtime->default"/>-->

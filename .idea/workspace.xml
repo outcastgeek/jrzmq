@@ -1,257 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" name="Default" comment="Clean up the API a bit, and then progressively fixing the ZGuide examples, and moving the working samples into the guide folder.">
-      <change type="DELETED" beforePath="C:\ossworkspace\jrzmq\examples\local_throughput.rb" afterPath="" />
+    <list default="true" id="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" name="Default" comment="Updated">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jars/compile/jeromq.jar" afterPath="$PROJECT_DIR$/jars/compile/jeromq.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jars/compile/logback-access.jar" afterPath="$PROJECT_DIR$/jars/compile/logback-access.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jars/compile/logback-classic.jar" afterPath="$PROJECT_DIR$/jars/compile/logback-classic.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jars/compile/logback-core.jar" afterPath="$PROJECT_DIR$/jars/compile/logback-core.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jars/compile/logback-site.jar" afterPath="$PROJECT_DIR$/jars/compile/logback-site.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jars/compile/slf4j-api.jar" afterPath="$PROJECT_DIR$/jars/compile/slf4j-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ivy.xml" afterPath="$PROJECT_DIR$/ivy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jrzmq.iml" afterPath="$PROJECT_DIR$/jrzmq.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jrzmq.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383334074361" ignored="false" />
-    <file path="/a.dummy" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383337468026" ignored="false" />
-    <file path="/build.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375217904347" ignored="false" />
-    <file path="/taskwork.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375224718096" ignored="false" />
-    <file path="/components.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383263642824" ignored="false" />
-    <file path="/a.rxml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375222776170" ignored="false" />
-    <file path="/msreader.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375224690625" ignored="false" />
-    <file path="/taskvent.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375224780833" ignored="false" />
-    <file path="/wuclient.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225213655" ignored="false" />
-    <file path="/wuproxy.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225231711" ignored="false" />
-    <file path="/wuserver.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225249120" ignored="false" />
-    <file path="/msgqueue.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225269421" ignored="false" />
-    <file path="/mtrelay.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225317399" ignored="false" />
-    <file path="/mtserver.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383339699038" ignored="false" />
-    <file path="/rrbroker.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383266052847" ignored="false" />
-    <file path="/rrclient.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225404936" ignored="false" />
-    <file path="/rrworker.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225432811" ignored="false" />
-    <file path="/rtdealer.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225455478" ignored="false" />
-    <file path="/rtreq.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225522892" ignored="false" />
-    <file path="/syncpub.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225586611" ignored="false" />
-    <file path="/syncsub.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225618786" ignored="false" />
-    <file path="/tasksink2.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225652758" ignored="false" />
-    <file path="/taskwork2.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383334552216" ignored="false" />
-    <file path="/version.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375225729556" ignored="false" />
-    <file path="/context_spec.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375230021865" ignored="false" />
-    <file path="/xreqxrep_poll.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375314095118" ignored="false" />
-    <file path="/fragment.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383265512674" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/pom.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375311764007" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/build.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375311627912" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/maven-build.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375311627912" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/README.md" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375311764007" ignored="false" />
-    <file path="/zmq_classes.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383355480971" ignored="false" />
-    <file path="/zmq_constants.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375315373832" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/pom.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398509861" ignored="false" />
-    <file path="/pom.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375385522907" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/src/main/java/com/outcastgeek/traversal/Traverse.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375392761882" ignored="false" />
-    <file path="/Traverse.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375393197153" ignored="false" />
-    <file path="/fragment.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375386164568" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/src/test/java/com/outcastgeek/traversal/TraverseTest.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375392795704" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/src/test/java/com/outcastgeek/traversal/pojos/NestedPojo.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398447991" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/src/test/java/com/outcastgeek/traversal/pojos/PojoLevelOne.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398462483" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/src/test/java/com/outcastgeek/traversal/pojos/PojoLevelTwo.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398481612" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/src/test/java/com/outcastgeek/traversal/pojos/PojoLevelFour.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398456010" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/src/test/java/com/outcastgeek/traversal/pojos/PojoLevelThree.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398470908" ignored="false" />
-    <file path="/NestedPojo.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398447991" ignored="false" />
-    <file path="/PojoLevelOne.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398462483" ignored="false" />
-    <file path="/PojoLevelTwo.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398481612" ignored="false" />
-    <file path="/PojoLevelThree.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398469702" ignored="false" />
-    <file path="/PojoLevelFour.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398456010" ignored="false" />
-    <file path="/TraverseTest.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375393761755" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/src/main/java/com/outcastgeek/exceptions/TraverseException.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398410713" ignored="false" />
-    <file path="/TraverseException.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398410713" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/src/test/java/com/outcastgeek/traversal/TraverseUtilsTest.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398494069" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/src/main/java/com/outcastgeek/traversal/TraverseUtils.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375460793944" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/README.md" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375394406766" ignored="false" />
-    <file path="/README.md" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375394399822" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/.travis.yml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375394724853" ignored="false" />
-    <file path="/.travis.yml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375394724853" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/.idea/workspace.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375476315730" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/.idea/compiler.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375397966358" ignored="false" />
-    <file path="$PROJECT_DIR$/../BeanTraversal/traversal.iml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375397966358" ignored="false" />
-    <file path="/TraverseUtils.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375460787709" ignored="false" />
-    <file path="/TraverseUtilsTest.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375398494069" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/zmq/TestConnectDelay.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/mdcliapi.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/tripping.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/rtpapa.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/peering1.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/ZMQ.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/interrupt.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/peering2.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/zmq/TestProxyTcp.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/peering3.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/Options.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/ZError.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/syncpub.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/Msg.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/PollItem.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/MDP.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/Poller.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/hwserver.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/msgqueue.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/identity.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/mdclient.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/mdworker.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/version.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/TcpListener.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/hwclient.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/MultiMap.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/wuproxy.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/lpserver.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/ppworker.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/SocketBase.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/DecoderBase.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/msreader.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/lpclient.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/psenvpub.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/org/jeromq/ZFrame.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/org/jeromq/ZMsg.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/ppqueue.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/org/jeromq/ZLoop.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/mdwrkapi.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/org/jeromq/ZThread.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/org/jeromq/ZMQ.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/org/jeromq/ZMQException.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/spqueue.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523753" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/org/jeromq/ZDevice.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/mdbroker.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/org/jeromq/ZContext.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/org/jeromq/ZMQQueue.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/tasksink2.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/wuserver.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/maven-build.properties" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/PollerBase.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/zmq/TestEncoder.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/XPub.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/mtrelay.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/zmq/TestDecoder.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/test/java/guide/asyncsrv.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/StreamEngine.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/src/main/java/zmq/TcpConnecter.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375458523754" ignored="false" />
-    <file path="C:/workspace/Alert/ant/ivy/ivy.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375461608836" ignored="false" />
-    <file path="C:/workspace/Alert/UnitTests/com/trgr/cobalt/alertcenter/service/keycite/KeyCiteFoServiceImplUnitTest.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375461608836" ignored="false" />
-    <file path="C:/workspace/Alert/ant/developerbuild.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375468968900" ignored="false" />
-    <file path="C:/workspace/Alert/ant/CompileAntScript.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375461608836" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/keycite/KeyCiteFoServiceImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/AlertsServiceImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/AlertServiceHelper.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/AlertsServiceDataRoomImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/Logs/IvyReports/master/com.trgr.cobalt.alert.alert-Alert-master.html" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375461956721" ignored="false" />
-    <file path="C:/workspace/Alert/buildTempLocation/build.properties" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375470460214" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/dataroom/DataRoomCallFactoryImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/dataroom/DataRoomAlertClient.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/ContactsServiceImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/batch/service/mapper/DocketAlertFieldMapper.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/AlertChangeNotifierImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/dataroom/DataRoomAlertSummary.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/AdminServiceDelegator.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/external/AlertProductServiceHTTPClient.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/dataroom/DataRoomAlertHttpClientImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/dataroom/RetrieveListRequest.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/PreferencesServiceImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/dataroom/SummaryRequest.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/AdminServiceDataRoomImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/dataroom/RetrieveMinimalListRequest.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/AlertsService.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/dataroom/test/TestDataRoomAlertHttpClient.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/UnitTests/com/trgr/cobalt/alerts/external/dataroom/DataRoomAlertHttpClientImplTest.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/web/AdminController.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/web/delivery/DeliveryFoController.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/keycite/KeyCiteFoServiceUtils.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/keycite/ModelForKeyCiteCoverPage.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/common/util/DelegateServiceHelper.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/keycite/KeyCiteFoService.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/ant/ant-global.properties" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/delivery/CoverPageFoServiceImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/service/SummaryReportServiceImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/service/util/DocumentUtils.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/web/batch/BatchCreateRequest.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/reportcenter/web/ReportController.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/alerts/AlertEventInterceptor.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/WebContent/WEB-INF/web.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/AdminServiceImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/AlertsServiceDelegator.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/resources/AlertIntegration.properties" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/CobaltSecurityServiceImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171537" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/DataRoomFirmSettingsHttpClient.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/DeliveryFeedServiceImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/resources/Alert.properties" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/AlertResultServiceImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/AdminServiceHelper.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/resources/spring/web-context.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/resources/spring/external-service-context.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/resources/spring/application-context.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/dataroom/DataRoomCall.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alertcenter/service/NotificationServiceImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/IntegrationTests/com/trgr/cobalt/alertcenter/net/SiteAffinityPropagationTest-context.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/dataroom/DataRoomRetrieveListResponse.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/dataroom/RetrieveRequestBase.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/batch/service/DocketBatchServiceImpl.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="C:/workspace/Alert/src/com/trgr/cobalt/alerts/external/dataroom/FacetType.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375475171538" ignored="false" />
-    <file path="$PROJECT_DIR$/../LearningGo/src/main.go" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1375476610599" ignored="false" />
-    <file path="C:/workspace/Search/src/com/trgr/cobalt/search/util/UrlFormatter.java" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376075285321" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/js/v1/Website/Cobalt.Widget.AddressBookCollaborationBox.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376318911562" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/js/v1/Search/advanced/AdvancedSearch.TermFrequencyBox.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376582710813" ignored="false" />
-    <file path="/AdvancedSearch.TermFrequencyBox.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376412656101" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/js/v1/Search/common/Util.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376582710812" ignored="false" />
-    <file path="/Util.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376501566625" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/js/v1/Search/alerts/AlertSearchSmartTermsWidget.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376582710812" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/js/v1/Search/advanced/AdvancedSearch.CaseSensitiveBox.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376582710813" ignored="false" />
-    <file path="/AdvancedSearch.CaseSensitiveBox.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376416449655" ignored="false" />
-    <file path="$PROJECT_DIR$/../reqrep/src/reqrep/Client.clj" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376353439196" ignored="false" />
-    <file path="/Client.clj" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376352305588" ignored="false" />
-    <file path="$PROJECT_DIR$/../reqrep/src/reqrep/Server.clj" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376353429388" ignored="false" />
-    <file path="/Server.clj" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376352231849" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/js/v1/Alerts/Cobalt.Alerts.Utils.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376409365535" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Products/WestlawNext/css/v2/browse.css" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376521472394" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/js/v1/Search/alerts/AlertSearchPreviewBox.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376582710813" ignored="false" />
-    <file path="/AlertSearchPreviewBox.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376412526841" ignored="false" />
-    <file path="/AlertSearchSmartTermsWidget.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376416352571" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/js/v2/Alerts/Bellows/WestClip/Cobalt.Alerts.Bellows.WestClip.Search.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376432255971" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/js/v2/Alerts/Bellows/Common/Cobalt.Alerts.Bellows.Common.BaseBellow.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376432276763" ignored="false" />
-    <file path="/Cobalt.Alerts.Bellows.Common.BaseBellow.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376431963770" ignored="false" />
-    <file path="/Cobalt.Alerts.Bellows.WestClip.Search.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376431195065" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/tests/Automated/QUnitTests/Search/tests/UtilTest.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376582710813" ignored="false" />
-    <file path="/UtilTest.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376514475335" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/js/v1/Alerts/Cobalt.Alerts.Center.StylesAndLogosSettings.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376491124297" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/js/v2/Alerts/Bellows/Common/Cobalt.Alerts.Bellows.Common.Basics.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376491124297" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/tests/TestDoubles/Mocks/Core/MockCobaltDom.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376499166771" ignored="false" />
-    <file path="/MockCobaltDom.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376499807926" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/tests/TestDoubles/Mocks/Core/MockCobaltDomAddRemove.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376499853986" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Platform/tests/Automated/QUnitTests/Search/AllTests.html" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376521472394" ignored="false" />
-    <file path="/AllTests.html" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376499941677" ignored="false" />
-    <file path="C:/workspace/CobaltStaticContent/site/Products/WestlawNext/css/Alerts/v1/_browse.scss" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1376521472394" ignored="false" />
-    <file path="D:/data/StaticContent/static_content_server.py" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378323857820" ignored="false" />
-    <file path="/static_content_server.py" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378317986855" ignored="false" />
-    <file path="$PROJECT_DIR$/../cljs-helloworld/src/cljs_helloworld/core.clj" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378481573023" ignored="false" />
-    <file path="$PROJECT_DIR$/../cljs-helloworld/src-cljs/cljs_helloworld/core.cljs" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378480518514" ignored="false" />
-    <file path="/core.clj" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378480841650" ignored="false" />
-    <file path="$PROJECT_DIR$/../cljs-helloworld/resources/public/clangsample.html" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378481011568" ignored="false" />
-    <file path="/clangsample.html" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378481005841" ignored="false" />
-    <file path="$PROJECT_DIR$/../cljs-helloworld/resources/public/css/clang.css" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378481069682" ignored="false" />
-    <file path="$PROJECT_DIR$/../cljs-helloworld/project.clj" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378481311455" ignored="false" />
-    <file path="/project.clj" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378481229958" ignored="false" />
-    <file path="$PROJECT_DIR$/../cljs-helloworld/src-cljs/phone-cat/app.cljs" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378481488747" ignored="false" />
-    <file path="$PROJECT_DIR$/../cljs-helloworld/resources/public/js/phonecat.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378481683710" ignored="false" />
-    <file path="$PROJECT_DIR$/../cljs-helloworld/resources/public/js/cljs.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1378481683710" ignored="false" />
-    <file path="C:/Tools/jruby/lib/jruby.jar!/jruby/kernel.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383256743074" ignored="false" />
-    <file path="/identity.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383262172153" ignored="false" />
-    <file path="/zhelpers.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383262064555" ignored="false" />
-    <file path="$PROJECT_DIR$/../jeromq/.idea/workspace.xml" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383356372516" ignored="false" />
-    <file path="/lpclient.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383264036845" ignored="false" />
-    <file path="/lpserver.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383264097372" ignored="false" />
-    <file path="/MAKE_SURE_TO_READ_THIS" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383266328405" ignored="false" />
-    <file path="/mspoller.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383336701959" ignored="false" />
-    <file path="/Cobalt.Document.DocketGateway.Draggable.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383337654274" ignored="false" />
-    <file path="D:/data/StaticContent/site/Products/WestlawNext/js/v1/Document/DocketGateway/Cobalt.Document.DocketGateway.Draggable.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383340460123" ignored="false" />
-    <file path="D:/data/StaticContent/site/Platform/js/v1/Document/Cobalt.Document.Draggable.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383339774716" ignored="false" />
-    <file path="D:/data/StaticContent/site/Products/WestlawNext/js/v1/Document/DocketGateway/Cobalt.Document.DocketGateway.Common.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383339843376" ignored="false" />
-    <file path="/Cobalt.Document.DocketGateway.Common.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383339828161" ignored="false" />
-    <file path="D:/data/StaticContent/site/Products/WestlawNext/tests/Automated/QUnitTests/DocketGateway/AllTests.html" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383340410724" ignored="false" />
-    <file path="D:/data/StaticContent/site/Products/WestlawNext/tests/Automated/QUnitTests/DocketGateway/tests/Cobalt.Document.DocketGateway.DraggableTest.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383341365742" ignored="false" />
-    <file path="/Cobalt.Document.DocketGateway.DraggableTest.js" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383340794252" ignored="false" />
-    <file path="/jrzmq_edn_spec.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383348984427" ignored="false" />
-    <file path="/spec_helper.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383347132596" ignored="false" />
-    <file path="/local_throughput.rb" changelist="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" time="1383355157839" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,6 +24,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/jrzmq@interrupt.coverage" NAME="interrupt Coverage Results" MODIFIED="1397509293882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guide" MODULE_NAME="jrzmq" />
+    <SUITE FILE_PATH="coverage/jrzmq@hwclient.coverage" NAME="hwclient Coverage Results" MODIFIED="1397509195537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guide" MODULE_NAME="jrzmq" />
+    <SUITE FILE_PATH="coverage/jrzmq@hwserver.coverage" NAME="hwserver Coverage Results" MODIFIED="1397509186817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guide" MODULE_NAME="jrzmq" />
+    <SUITE FILE_PATH="coverage/jrzmq@All_tests_in_jrzmq__jrzmq.coverage" NAME="All tests in jrzmq: jrzmq Coverage Results" MODIFIED="1397510026175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="jrzmq" />
+    <SUITE FILE_PATH="coverage/jrzmq@identity.coverage" NAME="identity Coverage Results" MODIFIED="1397509241178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guide" MODULE_NAME="jrzmq" />
+    <SUITE FILE_PATH="coverage/jrzmq@Run_spec__jrzmq_context_spec___jrzmq.coverage" NAME="Run spec 'jrzmq_context_spec': jrzmq Coverage Results" MODIFIED="1397506711248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="jrzmq" />
+    <SUITE FILE_PATH="coverage/jrzmq@lpclient.coverage" NAME="lpclient Coverage Results" MODIFIED="1397509370706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guide" MODULE_NAME="jrzmq" />
+    <SUITE FILE_PATH="coverage/jrzmq@lpserver.coverage" NAME="lpserver Coverage Results" MODIFIED="1397509364508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guide" MODULE_NAME="jrzmq" />
+    <SUITE FILE_PATH="coverage/jrzmq@All_specs_in__spec.coverage" NAME="All specs in: spec Coverage Results" MODIFIED="1397508644375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="jrzmq" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -266,8 +42,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -303,8 +78,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules />
-    <ui_properties />
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -312,19 +87,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jrzmq_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/jrzmq_spec.rb">
+      <file leaf-file-name="hwserver.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guide/hwserver.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="65" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="78" selection-start="546" selection-end="546" vertical-scroll-proportion="0.3420523">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -333,52 +100,18 @@
       <file leaf-file-name="identity.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guide/identity.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="50" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/jrzmq/version.rb">
+      <file leaf-file-name="jrzmq.gemspec" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jrzmq.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="16" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zmq_classes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="49" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jrzmq_edn_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/jrzmq_edn_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="86" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="67" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="56" selection-start="2624" selection-end="2624" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.22541967" vertical-offset="127" max-vertical-offset="544">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -418,14 +151,16 @@
         <option value="$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb" />
         <option value="$PROJECT_DIR$/examples/local_throughput.rb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/spec/jrzmq_context_spec.rb" />
+        <option value="$PROJECT_DIR$/ivy.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1672" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1066" />
+    <option name="width" value="1394" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -443,7 +178,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -483,7 +218,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="zguide" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,11 +232,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jrzmq" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -512,41 +243,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="229" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="229" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="233" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jars/compile/jeromq.jar!/" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="229" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="908" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="904" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="228" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="222" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FullScreen" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="settings.github" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -565,8 +273,8 @@
       <recent name="C:\ossworkspace\jrzmq\guide" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.All specs in: spec">
-    <configuration default="false" name="mtserver" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.All tests in jrzmq: jrzmq">
+    <configuration default="false" name="identity" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="jrzmq" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/guide" />
@@ -574,19 +282,17 @@
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/guide/mtserver.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/guide/identity.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="msgqueue" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="interrupt" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="jrzmq" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/guide" />
@@ -594,126 +300,170 @@
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/guide/msgqueue.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/guide/interrupt.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="jrzmq_edn_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="jrzmq" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/jrzmq_edn_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="All specs in: spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="jrzmq" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$PROJECT_DIR$/spec" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="local_throughput" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="lpserver" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="jrzmq" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/examples" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/guide" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/examples/local_throughput.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/guide/lpserver.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+    <configuration default="false" name="lpclient" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="jrzmq" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/guide" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/guide/lpclient.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All tests in jrzmq: jrzmq" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="jrzmq" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$PROJECT_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jrzmq" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jrzmq" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit">
+      <module name="" />
+      <option name="command" value="eunit" />
+      <option name="name" value="Erlang Rebar Eunit" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <option name="skipDependencies" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jrzmq" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -722,44 +472,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
-      <module name="" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -773,6 +485,261 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local">
+      <setting name="useLein" value="true" />
+      <setting name="leinProjectName" value="" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit">
+      <module name="" />
+      <option name="name" value="Erlang" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <option name="functionNames">
+        <set />
+      </option>
+      <option name="kind" value="MODULE" />
+      <option name="moduleNames">
+        <set />
+      </option>
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jrzmq" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application">
+      <module name="" />
+      <option name="erlFlags" value="" />
+      <option name="moduleAndFunction" value="" />
+      <option name="name" value="Erlang" />
+      <option name="params" value="" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -803,19 +770,27 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jrzmq" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -839,20 +814,86 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jrzmq" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jrzmq" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.mtserver" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.msgqueue" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.jrzmq_edn_spec" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.local_throughput" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.identity" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.interrupt" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.lpserver" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.lpclient" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in jrzmq: jrzmq" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.local_throughput" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.jrzmq_edn_spec" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.jrzmq_edn_spec" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.jrzmq_edn_spec" />
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in jrzmq: jrzmq" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.lpclient" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.lpserver" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.interrupt" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.identity" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -861,28 +902,16 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f87c77a1-19b6-4f71-a78e-5b967c6a80bb" name="Default" comment="" />
       <created>1375217392273</created>
       <updated>1375217392273</updated>
+      <workItem from="1397505694820" duration="283000" />
+      <workItem from="1397506055219" duration="3614000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing included ZGuide!!!!">
       <created>1375225970944</created>
@@ -903,101 +932,102 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3897000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1696" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1394" height="916" extended-state="6" />
+    <editor active="false" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21310432" sideWeight="0.6710671" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21289356" sideWeight="0.6710671" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39771283" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711306" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40382165" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.589659" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22031824" sideWeight="0.589659" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41034102" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23088455" sideWeight="0.589659" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41910827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.63366336" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21310432" sideWeight="0.6710671" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39771283" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711306" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23088455" sideWeight="0.589659" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4089172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.633121" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.589659" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean up the API a bit, and then progressively fixing the ZGuide examples, and moving the working samples into the guide folder." />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Fixing included ZGuide!!!!" />
     <MESSAGE value="Updated dependencies." />
     <MESSAGE value="Splitting ZMQ module into separate files." />
     <MESSAGE value="Updated deprecated :rubygems source to 'https://rubygems.org'." />
     <MESSAGE value="Clean up the API a bit, and then progressively fixing the ZGuide examples, and moving the working samples into the guide folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up the API a bit, and then progressively fixing the ZGuide examples, and moving the working samples into the guide folder." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1028,107 +1058,306 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/jrzmq/components.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="56" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jrzmq.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="67" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="56" selection-start="2624" selection-end="2624" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/jrzmq_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="65" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="918">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/jrzmq_edn_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="86" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/hwclient.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="44" selection-start="140" selection-end="140" vertical-scroll-proportion="0.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/interrupt.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/rrclient.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="193" selection-end="193" vertical-scroll-proportion="0.23333333">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="918">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guide/identity.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="50" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/lpclient.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="59" selection-start="831" selection-end="831" vertical-scroll-proportion="0.6">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="680">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/jrzmq/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="49" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1054">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+    <entry file="file://$PROJECT_DIR$/spec/jrzmq_edn_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="45" selection-end="45" vertical-scroll-proportion="0.1">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2312">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2074" max-vertical-offset="2499">
+          <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/jrzmq_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="918">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="78" selection-start="546" selection-end="546" vertical-scroll-proportion="0.3420523">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="918">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/identity.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="680">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jrzmq/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1054">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/jrzmq_edn_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2312">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2074" max-vertical-offset="2499">
+          <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jrzmq/components.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="5" column="56" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08959157" vertical-offset="0" max-vertical-offset="759">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/hwclient.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="0">
+          <caret line="6" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/interrupt.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/rrclient.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23333333" vertical-offset="0" max-vertical-offset="0">
+          <caret line="7" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/lpclient.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="0">
+          <caret line="36" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jrzmq/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1" vertical-offset="0" max-vertical-offset="0">
+          <caret line="3" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.44" vertical-offset="170" max-vertical-offset="918">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2499">
+          <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jrzmq/zmq_constants.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jrzmq/zmq_classes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1054">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../jruby/lib/ruby/gems/shared/gems/parslet-1.4.0/lib/parslet/transform/context.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26877472" vertical-offset="0" max-vertical-offset="759">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/jrzmq_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivysettings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11198946" vertical-offset="0" max-vertical-offset="759">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/jrzmq_edn_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2312">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="355" max-vertical-offset="918">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31954888" vertical-offset="0" max-vertical-offset="544">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/hwserver.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="430">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/identity.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jrzmq.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22541967" vertical-offset="127" max-vertical-offset="544">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1150,7 +1379,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>IvyIDEA</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1162,7 +1391,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>blankslate (v2.1.2.4, jruby-1.7.4-p392) [gem]</last-edited>
+          <last-edited>blankslate (v2.1.2.4, jruby-1.7.11-p392) [gem]</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1174,7 +1403,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>jruby-1.7.6-p392</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1199,7 +1428,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>jruby-1.7.11-p392</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
